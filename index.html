@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BearMade Woodworking</title>
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Gravitas+One&family=Namdhinggo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- InHouse CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+
+    <!-- Site Icon -->
+    <link rel="Logo" href="" type="image/ico"/>
+
+    <!-- AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!-- Vue.js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+    <!-- Navbar Content -->  
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+        <div class="container-xl">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="img/bearmadelogo(BB9457).png" width="147" height="91" class="d-inline-block align-top" alt="">
+            </a>
+
+            <!-- Button Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">order</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <svg class="nav-wave" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#533E2D" d="M0,192L180,96L360,256L540,256L720,96L900,32L1080,288L1260,0L1440,128L1440,0L1260,0L1080,0L900,0L720,0L540,0L360,0L180,0L0,0Z"></path>
+    </svg>
+
+    <!-- The Bear Page -->
+    <div class="openpage">
+        <div class="container-xl" data-aos="zoom-in">
+            <div class="row">
+                <div class="col minWidth350">
+                    <p class="openingHeader"> BEAR MADE </p>
+                </div>
+                <div class="col minWidth350">
+                    <div class="line-design"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col minWidth450">
+                    <img src="img/jersey_Icon.png" class="jerseyIcon alignCenterIMG">
+                </div>
+                <div class="col minWidth350">
+                    <p class="p-text">
+                        BearMade Woodworking is built on craftsmanship, creativity, and care. Every project is designed and built with precision. No shortcuts, no compromises—just quality woodworking done the way it should be.
+                        At BearMade, everything is fully custom, tailored to bring your ideas to life. From initial design to the final finish, every piece is either handmade or digitally crafted and milled to perfection. Each project starts with hand-selected wood, chosen personally by Barry—better known as “Bear”—to ensure only the finest materials are used.
+                        Bear has spent more than 30 years perfecting his craft, continuously learning, improving, and building with passion. As a one-man operation, he pours his time, skill, and dedication into every project, ensuring it's as unique as the person it's made for. Based in New Jersey, Bear's work has been found homes & businesses across the state, a testament to both quality and care.
+                        With BearMade, you're not just getting a piece of woodwork—you're getting something made with heart, experience, and pride.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer-1"></div>
+
+    <!-- Project Page -->
+    <div id="app" class="projectpage">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col minWidth350">
+                    <p class="openingHeader"> PROJECTS </p>
+                </div>
+                <div class="col minWidth350">
+                    <div class="line-design"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="p-text">Custom woodworking, no shortcuts—just BearMade</p>
+                </div>
+            </div>
+            <!-- Card Stack -->
+            <div class="row">
+                <div class="col" v-for="(p, i) in projects" :key="p.id ?? i">
+                    <div class="card p-card" data-aos="zoom-in" data-aos-duration="100">
+                        <img :src="imgSrc(p.img)" class="card-img-top" :alt="p.name || 'Project image'">
+                        <div class="card-body">
+                            <p class="card-text-header">{{ p.name }}</p>
+                            <div class="details">
+                                <p class="p-text">{{ p.text }}</p>
+                            </div>
+                            <div class="date">
+                                <p class="p-text date-text">{{ p.year }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+   <!-- In House JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
