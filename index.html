@@ -43,7 +43,7 @@
     <nav class="navbar navbar-light bg-light navbar-expand-md">
         <div class="container-xl">
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="https://bearmadewoodworking.com/">
                 <img src="img/bearmadelogo(BB9457).png" width="147" height="91" class="d-inline-block align-top" alt="">
             </a>
 
@@ -57,10 +57,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">projects</a>
+                        <a class="nav-link" href="#projects">projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">order</a>
+                        <a class="nav-link" href="#contact">order</a>
+                    </li>
+                    <li class="nav-item-special">
+                        <a class="nav-link" href="https://www.instagram.com/bearmade_woodworking/" target="_blank"><i class="bi bi-instagram"></i></a>
                     </li>
                 </ul>
             </div>
@@ -104,13 +107,13 @@
         <div class="container-xl">
             <div class="row">
                 <div class="col minWidth350">
-                    <p class="openingHeader"> PROJECTS </p>
+                    <p class="openingHeader" id="projects"> PROJECTS </p>
                 </div>
                 <div class="col minWidth350">
                     <div class="line-design"></div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row descrip">
                 <div class="col">
                     <p class="p-text">Custom woodworking, no shortcuts—just BearMade</p>
                 </div>
@@ -120,7 +123,7 @@
                 <div class="col" v-for="(p, i) in projects" :key="p.id ?? i">
                     <div class="card p-card" data-aos="zoom-in" data-aos-duration="100">
                         <img :src="imgSrc(p.img)" class="card-img-top" :alt="p.name || 'Project image'">
-                        <div class="card-body">
+                        <div class="card-body-pro">
                             <p class="card-text-header">{{ p.name }}</p>
                             <div class="details">
                                 <p class="p-text">{{ p.text }}</p>
@@ -136,6 +139,72 @@
         </div>
     </div>
     
+    <div class="spacer-1"></div>
+
+    <div class="contactpage">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col minWidth570">
+                    <p class="openingHeader" id="contact"> CONTACT </p>
+                </div>
+                <div class="col minWidth350">
+                    <div class="line-design"></div>
+                </div>
+            </div>
+            <div class="row descrip">
+                <div class="col">
+                    <p class="p-text">To place an order or contact Bear, fill out the form below or email: <b>bearmadewoodworking@gmail.com</b></p>
+                </div>
+            </div>
+            <div class="row" data-aos="flip-up">
+                <div class="col">
+                        <div class="card cardContactWrapper">
+                            <div class="card-body cardContact">
+                            <form action="https://formsubmit.co/bearmadewoodworking@gmail.com" method="POST">
+                                <div class="row">
+                                <div class="col-6" id="left-form">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-6" id="right-form">
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address" required >
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col">
+                                    <textarea placeholder="Your Order or Message..." class="form-control form-textBox" name="message" rows="10" required></textarea>
+                                </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary form-SendBtn"><i class="bi bi-send"></i> Send</button>
+                            </form>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spacer-1"></div>
+
+    <svg class="footer-wave" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#FFE6A7" d="M0,192L180,96L360,256L540,256L720,96L900,32L1080,288L1260,0L1440,128L1440,0L1260,0L1080,0L900,0L720,0L540,0L360,0L180,0L0,0Z"></path>
+    </svg>
+    <div class="footer">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col">
+                    <img data-aos="zoom-in-down" class="footer-img alignCenterIMG" src="img/bearmadelogoalt.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="socialWrap">
+                        <a class="social-intext" id="insta" href="https://www.instagram.com/bearmade_woodworking/" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a class="social-intext" id="email" href="mailto:bearmadewoodworking@gmail.com" target="_blank"><i class="bi bi-envelope-at"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
    <!-- In House JavaScript -->
     <script src="js/main.js"></script>
 

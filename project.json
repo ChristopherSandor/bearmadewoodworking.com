@@ -1,170 +1,242 @@
 [
   {
+    "name": "Cow Cutting Board",
+    "text": "Endgrain walnut with maple inlay ",
+    "year": "2024",
+    "img": "p30.JPG"
+  },
+  {
+    "name": "Lighthouse cutting Board",
+    "text": "Endgrain Walnut with Maple Inlay",
+    "year": "2023",
+    "img": "p31.JPG"
+  },
+  {
+    "name": "Coasters",
+    "text": "Flame maple Coasters with purple Mica Epoxy",
+    "year": "2021",
+    "img": "p32.JPG"
+  },
+  {
+    "name": "Bobby's World Sign",
+    "text": "Epoxy Art Sign",
+    "year": "2023",
+    "img": "p33.JPG"
+  },
+  {
+    "name": "Ross Brewing",
+    "text": "Walnut and Epoxy Sign",
+    "year": "2023",
+    "img": "p34.JPG"
+  },
+  {
+    "name": "Serving Tray Wood and Epoxy",
+    "text": "Walnut with Mica Blue Epoxy",
+    "year": "2022",
+    "img": "p35.JPG"
+  },
+  {
+    "name": "Creative Performance sign",
+    "text": "Oak Sign V-carved with Epoxy",
+    "year": "2023",
+    "img": "p36.JPG"
+  },
+  {
+    "name": "Wood Tray bowl",
+    "text": "Beautiful Spalted Maple Burl Bowl/Tray",
+    "year": "2022",
+    "img": "p37.JPG"
+  },
+  {
+    "name": "Rose Cutting board",
+    "text": "Endgrain Maple, walnut and Padauk with Padauk Inlay",
+    "year": "2024",
+    "img": "p38.JPG"
+  },
+  {
+    "name": "Horse cutting board",
+    "text": "Endgrain Maple with Walnut inlay",
+    "year": "2024",
+    "img": "p39.JPG"
+  },
+  {
+    "name": "Maple & Walnut Table",
+    "text": "Claro Walnut live-edge Cookie with Curly Hard Maple Base",
+    "year": "2022",
+    "img": "p40.JPG"
+  },
+  {
+    "name": "Candle holder",
+    "text": "Glowing Burl Maple and Epoxy with Dye",
+    "year": "2021",
+    "img": "p42.JPG"
+  },
+  {
+    "name": "Diamonds are a Girls Best Friend",
+    "text": "Walnut jewelry tray with Opaqued Epoxy",
+    "year": "2023",
+    "img": "p43.JPG"
+  },
+  {
+    "name": "Serving/Charcuterie Tray",
+    "text": "Olive Wood with Epoxy",
+    "year": "2022",
+    "img": "p44.JPG"
+  },
+  {
+    "name": "Plumber's Legs",
+    "text": "Black Locust and EPoxy with Pipe Legs",
+    "year": "2021",
+    "img": "p45.JPG"
+  },
+  {
+    "name": "Celtic Cross Cutting Board",
+    "text": "Endgrain Walnut with Maple Inlay",
+    "year": "2024",
+    "img": "p46.JPG"
+  },
+  {
+    "name": "Whiskey Flight",
+    "text": "Sapele w Epoxy inlay",
+    "year": "2022",
+    "img": "p50.JPG"
+  },
+  {
+    "name": "Bourbon Flight",
+    "text": "Sapele w Epoxy Inlay",
+    "year": "2022",
+    "img": "p51.JPG"
+  },
+  {
     "name": "Lin Family Cutting Board",
     "text": "Dark Oak Board with Maple Inlay",
     "year": "2025",
     "img": "p1.jpg"
   },
   {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Counter Strike Cutting Board",
+    "text": "Endgrain Walnut with Maple Inlay",
+    "year": "2025",
     "img": "p2.jpg"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Chef Steve",
+    "text": "Endgrain Walnut with Maple Inlay",
     "year": "2024",
     "img": "p3.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "The Witch",
+    "text": "Walnut w maple,oak,cherry,yellowheart inlays",
     "year": "2024",
     "img": "p4.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Hunny pups",
+    "text": "Sapele border with epoxy art",
+    "year": "2023",
     "img": "p6.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Turtle cutting board",
+    "text": "Endgrain Walnut with Maple Inlay",
     "year": "2024",
     "img": "p7.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Celtic Cross Serving Tray",
+    "text": "Walnut w/ epoxy",
     "year": "2024",
     "img": "p8.png"
   },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p9.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+   {
+    "name": "Grapevine",
+    "text": "Endgrain Maple Cutting Board w/ Padauk Inlay and Juice groove",
+    "year": "2023",
     "img": "p10.png"
   },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p11.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+   {
+    "name": "Lighthouse",
+    "text": "Endgrain Walnut with Maple Inlay and Juice Groove",
     "year": "2024",
     "img": "p12.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Chef",
+    "text": "Endgrain Maple cutting Board w/ Walnut Inlay and Juice Groove",
+    "year": "2023",
     "img": "p13.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "T",
+    "text": "Cherry Endgrain cutting board w/ Maple inlay and Juice Groove",
+    "year": "2023",
     "img": "p14.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Candle Holder 3",
+    "text": "Book Matched Australian Red Mallee Burl",
+    "year": "2023",
     "img": "p15.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Farm Sign",
+    "text": "Oak and Epoxy Sign",
+    "year": "2023",
     "img": "p16.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Chef Cohn",
+    "text": "Endgrain Walnut with Maple Inlay and Juice Groove",
     "year": "2024",
     "img": "p17.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Law Office",
+    "text": "Endgrain Walnut with Maple Inlay and Juice Groove",
+    "year": "2023",
     "img": "p18.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "America Eagle",
+    "text": "Maple Endgrain Cutting board inlayed w/ Walnut and juice groove",
     "year": "2024",
     "img": "p19.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Heitzer Charcuterie",
+    "text": "Live Edge Walnut w/ Epoxy Inlay",
     "year": "2024",
     "img": "p20.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Black Limba",
+    "text": "Endgrain Black limba w Juice Groove",
     "year": "2024",
     "img": "p21.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Live Edge Charcuterie Tree",
+    "text": "Live-edge Walnut w Epoxy Inlay",
     "year": "2024",
     "img": "p22.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Dominoes",
+    "text": "Endgrain Walnut, Maple and Cherry Cutting Board w Juice Groove",
+    "year": "2023",
     "img": "p23.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
+    "name": "Checker Cutting Board",
+    "text": "Walnut and Maple w Juice Groove",
+    "year": "2023",
     "img": "p24.png"
   },
     {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
+    "name": "Aldefer",
+    "text": "Endgrain Walnut with Maple Inlay Cutting Board",
     "year": "2024",
     "img": "p25.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p26.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p27.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p28.png"
-  },
-    {
-    "name": "Maple & Walnut Table",
-    "text": "Live-edge maple slab with walnut bowties",
-    "year": "2024",
-    "img": "p29.png"
   }
 ]
