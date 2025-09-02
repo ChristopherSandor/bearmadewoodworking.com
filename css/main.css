@@ -1,4 +1,6 @@
-.body{
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #FFE6A7!important;
 }
 .spacer-1{
@@ -35,6 +37,9 @@
 .minWidth350{
     min-width: 350px!important;
 }
+.minWidth570{
+    min-width: 570px!important;
+}
 .line-design{
     background-color: #333D30;
     height: 4px;
@@ -43,7 +48,7 @@
 }
 .col:has(> .line-design) {
   display: grid;
-  place-items: center; /* shorthand for align-items + justify-items */
+  place-items: center;
 }
 .p-text{
     font-family: "Namdhinggo", serif;
@@ -60,7 +65,7 @@
     border-radius: 2px;
     background-color: #333D30;
     border: 0;
-    height: 475px;
+    height: 430px;
     width: 410px;
     display: flex;
     flex-direction: column; 
@@ -80,11 +85,11 @@
     border-radius: 2px;
     flex: 0 0 auto;
     width: 100%;
-    height: 230px;   /* choose a height that fits your card copy */
+    height: 230px;
     object-fit: cover;
     display: block;
 }
-.card-body{
+.card-body-pro{
     padding-left: 0;
     padding-right: 0;
     flex: 1;  
@@ -93,16 +98,17 @@
     padding-bottom: 0;
     transition: 0.3s!important;
 }
-.card-body:hover{
+.card-body-pro:hover{
     background-color: #242331; 
     transition: 0.3s!important;
 }
 .card-text-header{
     font-family: "Gravitas One", serif;
+    padding-top: 12px;
     font-size: 20px;
     color: #DDCA7D;
 }
-.card-body > .p-text {
+.card-body-pro > .p-text {
     margin-bottom: 0!important;
     text-align: center;
 }
@@ -125,3 +131,66 @@
     text-align: right;
     margin-top: auto;
 }
+
+.contactpage{
+     background-color: #FFE6A7!important;
+     padding-top: 2vw;
+     padding-bottom: 2vw;
+}
+
+.cardContactWrapper{
+    border-radius: 2px;
+    background-color: #333D30;
+    transition: 0.3s!important;
+    border: none!important;
+}
+.cardContactWrapper:hover{
+    background-color: #242331; 
+    transition: 0.3s!important;
+}
+.cardContact{
+    padding: 12px;
+}
+.descrip{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.form-control{
+    border-radius: 2px!important;
+    background-color: #DDCA7D;
+    border: none!important;
+    transition: ease 0.3s;
+    font-family: "Namdhinggo", serif;
+    font-size: 22px;
+    color: #242331;
+}
+#left-form{
+    padding-right: 6px!important;
+}
+#right-form{
+    padding-left: 6px!important;
+}
+.row:has(.col-6){
+    padding-bottom: 12px;
+}
+.form-SendBtn{
+    border-radius: 2px;
+    border: none;
+    background-color:#A27035;
+    margin-top: 12px;
+    font-family: "Namdhinggo", serif;
+    font-size: 20px;
+    width: 100px;
+    color: #242331;
+    --bs-btn-active-bg: #DDCA7D;
+}
+.form-SendBtn:hover{
+    background-color:#DDCA7D;
+    color: #242331;
+}
+.form-control:focus, .form-control:active {
+    transition: ease 0.3s;
+    box-shadow: none;
+    border: none;
+    background-color: #DDCA7D;
+ }
